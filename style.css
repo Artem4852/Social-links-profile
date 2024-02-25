@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  padding-top: 176px;
+}
+
+#card {
+  width: 384px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+#card h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+#card h2 {
+  font-size: 14px;
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+#card p {
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 20px;
+}
+#card .social-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#card .social-links a {
+  border-radius: 10px;
+  padding: 16px;
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 15px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+#card .social-links a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
+
+/*# sourceMappingURL=style.css.map */

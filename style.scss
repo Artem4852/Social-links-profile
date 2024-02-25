@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Inter';
+  src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+
+$white: hsl(0, 0%, 100%);
+$grey: hsl(0, 0%, 20%);
+$dark-grey: hsl(0, 0%, 12%);
+$off-black: hsl(0, 0%, 8%);
+$green: hsl(75, 94%, 57%);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: $white;
+  background-color: $off-black;
+
+  display: flex;
+  justify-content: center;
+
+  padding-top: 176px;
+}
+
+#card {
+  width: 384px;
+  padding: 40px;
+  border-radius: 10px;
+
+  background-color: $dark-grey;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 14px;
+    color: $green;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 14px;
+    color: $white;
+    margin-bottom: 20px;
+  }
+
+  .social-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+      border-radius: 10px;
+      padding: 16px;
+      width: 100%;
+      background-color: $grey;
+      margin-bottom: 15px;
+      text-align: center;
+      color: $white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    a:hover {
+      background-color: $green;
+      color: $grey;
+    }
+  }
+}
